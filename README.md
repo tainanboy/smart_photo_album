@@ -1,6 +1,6 @@
 # Smart Photo Album
 
-In this project, we implemented a photo album web application, that can be searched using natural language through both text and voice to retrieve images. We used AWS S3, API Gateway, Lambda to build a scalable website. In addition, we also used Lex, ElasticSearch, and Rekognition to create an intelligent search layer to query photos for people, objects, actions, landmarks and more. This is one of the course project of COMS E6998 Cloud Computing & Big Data at Columbia University. 
+In this project, we implemented a photo album web application, that can be searched using natural language through both text and voice to retrieve images. We used AWS S3, API Gateway, Lambda to build a scalable website. In addition, we also used Lex, ElasticSearch, and Rekognition to create an intelligent search layer to query photos for people, objects, actions, landmarks and more. This is one of the course project of COMS E6998 Cloud Computing & Big Data at Columbia University. The website can be accessed at https://s3.amazonaws.com/b1-photos-frontend/index.html. 
 
 ### How it works
 
