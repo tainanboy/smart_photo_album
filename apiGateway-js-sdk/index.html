@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Searchable Photo Album</title>
+	<meta name="viewport" content="width=540">
+	<link rel="stylesheet" href="speech-input.css">
+	<link rel="stylesheet" href="demo.css">
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="fileupload.js"></script>
+	 <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <!-- </script> -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script type="text/javascript" src="lib/axios/dist/axios.standalone.js"></script>
+    <script type="text/javascript" src="lib/CryptoJS/rollups/hmac-sha256.js"></script>
+    <script type="text/javascript" src="lib/CryptoJS/rollups/sha256.js"></script>
+    <script type="text/javascript" src="lib/CryptoJS/components/hmac.js"></script>
+    <script type="text/javascript" src="lib/CryptoJS/components/enc-base64.js"></script>
+    <script type="text/javascript" src="lib/url-template/url-template.js"></script>
+    <script type="text/javascript" src="lib/apiGatewayCore/sigV4Client.js"></script>
+    <script type="text/javascript" src="lib/apiGatewayCore/apiGatewayClient.js"></script>
+    <script type="text/javascript" src="lib/apiGatewayCore/simpleHttpClient.js"></script>
+    <script type="text/javascript" src="lib/apiGatewayCore/utils.js"></script>
+    <script type="text/javascript" src="apigClient.js"></script>
+</head>
+<body>
+	
+	<h1 id="title">Searchable Photo Album</h1>	
+
+	<form onsubmit="return false;" id="qery">
+		<h2>Search for a Specific Image</h2>
+		<input type="text" class="speech-input" placeholder="type here" name="searchTerm" id="q">
+		<input type='submit' value="submit" id="submitq"/>
+	</form>
+
+	<h2>Upload Your Own Photos</h2>
+	<form action='#' onsubmit="return false;" id="uploadbanner" entctype="multipart/form-data" method="post">
+        <input id="fileupload" name="myfile" type="file" />
+        <input type="submit" value="submit" id="submit" />
+    </form>
+    <br>
+	<div id="imageDisplay">
+		<p id="reminder">  Search Results (divID: imageDisplay)</p> <br>
+		<p id="filler"><br>(contained within the divs (1) imageDisplay and (2) imageBorder)1) imageDisplay and (2) imageBorder)1) imageDisplay and (2) imageBorder)1) imageDisplay and (2) imageBorder)1) imageDisplay and (2) imageBorder)<br><p>
+	</div>
+
+	<script async defer src="https://buttons.github.io/buttons.js"></script>
+	<script src="speech-input.js"></script>
+</body>
+</html>
+

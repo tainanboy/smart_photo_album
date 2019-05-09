@@ -1,0 +1,38 @@
+body {
+	background-color: rgb(225, 253, 239)
+}
+
+::placeholder{
+	color: rgb(216, 216, 216);
+}
+
+#upload {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+}
+
+H1{
+	text-align: left
+}
+
+#imageDisplay{
+	outline: 5px dotted white;
+	display: inline-block;
+	background-color: rgb(244, 255, 252);
+}
+
+#filler{
+	color: white;
+}
+
+
+#reminder{
+	text-align: left;
+	font-size: 25px;
+}
