@@ -4,7 +4,7 @@ In this project, we implemented a photo album web application, that can be searc
 
 ### How it works
 
-Users can upload their photo through our website and store on the cloud storage. On the other hand, for a given search query, the application would return every photo that matches the query. 
+Users can upload their photo through our website and store on the cloud storage. On the other hand, you can search photos by typing keyword searches (“trees”, “birds”), or sentence searches (“show me trees”, “show me photos with trees and birds in them”). For a given search query, the application would return every photo that matches the query. 
 
 ### Built With
 * [S3](https://aws.amazon.com/s3/) - Host static frontend and store images.
